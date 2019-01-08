@@ -6,8 +6,7 @@ body {
     display: flex;
 }
 .body{
-    width: 100%;
-    margin-left: 13%; 
+    width: 100%; 
 }
 a {
     text-decoration: none ;
@@ -56,10 +55,9 @@ li {
 }
 
 .contactus{
-    width: 87%;
+    width: 100%;
     background: #1e1e1e;
     padding: 10px;
-    margin-left: 13%;
 }
 .contactus-form{
     width: 50%;
