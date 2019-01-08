@@ -7,9 +7,13 @@ body {
     width: 100%;
 }
 .body{
+<<<<<<< HEAD
     width: 100%; 
     margin-left: 15%;
     margin-right: 5%;
+=======
+    width: 100%;
+>>>>>>> c4c19afa882110df75214178a848197a1f3004a6
 }
 a {
     text-decoration: none ;
@@ -20,7 +24,7 @@ a {
     margin-top: 60%;
 }
 li {
-    list-style-type: none;  
+    list-style-type: none;
 }
 .nav{
     width: 10%;
@@ -41,14 +45,14 @@ li {
     height: 200px;
 }
 .head{
-    padding-top: 10%; 
+    padding-top: 10%;
     padding-bottom: 10%;
     margin-bottom: 0px;
 }
 
 .arrow-down{
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid aquamarine;
@@ -95,3 +99,17 @@ li {
     margin-right: 5%;
     
 }
+.aboutus{
+  min-height: 500px;
+  background: #ca9c9c;
+  padding-top: 50px;
+}
+.aboutus1{
+  padding-top: 70px;
+    text-align: center;
+    font-size: 28px;
+    overflow: hidden;
+}
+.aboutushead{
+    text-align: center;
+    font-size: 28px;
