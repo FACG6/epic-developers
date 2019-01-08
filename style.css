@@ -1,0 +1,36 @@
+.contactus{
+    width: 87%;
+    background: #1e1e1e;
+    padding: 10px;
+    margin-left: 13%;
+}
+.contactus-form{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    row-gap: 20px;
+}
+.contactus-form label{
+    font-family: 'Staatliches', cursive;
+    color:#c9c8c8;
+}
+.input{
+    height: 30px;
+    background: #c9c8c8;
+    border-radius: 7px;
+    padding: 5px;
+    font-family: monospace;
+}
+.footer{
+    margin-top: 10px;
+    text-align: center;
+    font-family: monospace;
+}
+#message-textarea{
+    height: 100px;
+    background: #c9c8c8;
+    border-radius: 7px;
+    padding: 5px;
+    resize: none;
+}
