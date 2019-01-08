@@ -1,0 +1,28 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.teammember {
+    display:flex;
+    min-height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+}
+
+.teammember .images img{
+  margin:20px auto;
+  height:200px;
+  width: 200px;
+  border-radius:50%;
+  margin: 20px;
+  opacity: 0.5;
+}
+.teammember .images img:hover{
+    opacity:1; 
+
+}
