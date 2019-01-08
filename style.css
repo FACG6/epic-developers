@@ -1,4 +1,40 @@
-body {
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.teammember {
+    display:flex;
+    min-height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 100px;
+   
+}
+
+.teammember .images img{
+  margin:20px auto;
+  height:200px;
+  width: 200px;
+  border-radius:50%;
+  margin-left: 30px;
+  opacity: 0.5;
+}
+.teammember .images img:hover{
+    opacity:1; 
+}
+
+.teammember  ul{
+    margin-left: 50px;
+}
+.teammember  ul li{
+list-style: none;
+
+}
+.body {
     margin: 0;
     padding: 0;
 }
@@ -7,13 +43,7 @@ body {
     width: 100%;
 }
 .body{
-<<<<<<< HEAD
-    width: 100%; 
-    margin-left: 15%;
-    margin-right: 5%;
-=======
     width: 100%;
->>>>>>> c4c19afa882110df75214178a848197a1f3004a6
 }
 a {
     text-decoration: none ;
@@ -113,3 +143,4 @@ li {
 .aboutushead{
     text-align: center;
     font-size: 28px;
+}
