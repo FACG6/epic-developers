@@ -4,9 +4,16 @@ body {
 }
 .container{
     display: flex;
+    width: 100%;
 }
 .body{
+<<<<<<< HEAD
+    width: 100%; 
+    margin-left: 15%;
+    margin-right: 5%;
+=======
     width: 100%;
+>>>>>>> c4c19afa882110df75214178a848197a1f3004a6
 }
 a {
     text-decoration: none ;
@@ -23,8 +30,6 @@ li {
     width: 10%;
     position: fixed;
     background-color: aqua;
-    /* height: 80%; */
-    /* top:10%; */
     height: 100%;
 }
 .navitems{
@@ -57,7 +62,7 @@ li {
 .contactus{
     width: 100%;
     background: #1e1e1e;
-    padding: 10px;
+    /* padding: 10px; */
 }
 .contactus-form{
     width: 50%;
@@ -77,17 +82,22 @@ li {
     padding: 5px;
     font-family: monospace;
 }
-.footer{
-    margin-top: 10px;
-    text-align: center;
-    font-family: monospace;
-}
+
 #message-textarea{
     height: 100px;
     background: #c9c8c8;
     border-radius: 7px;
     padding: 5px;
     resize: none;
+}
+.footer{
+    color: #c9c8c8;
+    font-family: monospace;
+    text-align: center;
+    background: #1e1e1e;
+    margin-left: 15%;
+    margin-right: 5%;
+    
 }
 .aboutus{
   min-height: 500px;
