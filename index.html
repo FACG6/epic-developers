@@ -6,74 +6,104 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Indie+Flower|Josefin+Sans|Lobster|ZCOOL+KuaiLe" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>Epic Developers</title>
 </head>
 <body>
     <div class="container">
         <div class="nav">
-            <nav>
+            <nav class="">
                 <ul class="navcontant">
                     <li class="navitems"><a href="index.html" class="navlink">Home</a></li>
                     <li class="navitems"><a href="#a" class="navlink">About</a></li>
                     <li class="navitems"><a href="#b" class="navlink">Team</a></li>
-                    <li class="navitems"><a href="#c" class="navlink">Contact</a></li>
+                    <li class="navitems no-border"><a href="#c" class="navlink">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <div class="body">
             <div class="titel">
-                <div class="teamname">
-                    <h1 class="head">Epic Developers</h1>
+                <div class="rgba">
+                        <div class="teamcoll">
+                                <div class="teamname">
+                                    <h1 class="head"><span class="epic-font">Epic {</span><span id="dev-font"> developers </span><span class="epic-font"> }</span></h1>
+                                </div>
+
+                            </div>
                 </div>
-                <div class="arrow-down"></div>
+               
             </div>
             <div class="aboutus" id="a">
-              <h2 class="aboutushead">About Us</h2>
+              <!-- <h2 class="aboutushead">About Us</h2> -->
                <p class="aboutus1">We are a team of 4 web programmers. We have different ideas and skills. Our goal from this page is to present our projects and skills. We hope to develop our business and become web developers.</p>
             </div>
-            <div >
-            <div class="teammember" id="b">
-                <div class="images">
-                    <img src="ahmed.jpeg" alt="ahmedPhoto">
-                    <ul class="info">
-                        <li>Ahmed</li>
-                        <li>21 years</li>
-                        <li>web developer</li>
-                    </ul>
-                </div>
-                <div class="images">
-                    <img src="dina.jpeg" alt="dinaPhoto" >
-                        <ul class="info">
-                            <li>dina</li>
-                            <li>21 years</li>
+        <!-- <div> -->
+            <div class="team" id="b">
+                <div class="obes">
+
+                    <div class="intro" ><h1 class="introh1">Meet The Geeks</h1></div>
+                    <div class="teammember" id="b">
+                            <div class="images">
+                            <img src="ahmed.jpeg" alt="ahmedPhoto">
+                            <ul class="info">
+                            <li>Ahmed Abdellatif</li>
+                            <li>19 years</li>
                             <li>web developer</li>
-                        </ul>
-                </div>
-                <div class="images"> 
-                    <img src="jamalat.jpeg" alt="jamalat">
-                    <ul class="info">
-                            <li>jamalat</li>
+                            <li ><a href="https://github.com/ahmedisam99" style="display: inline;margin-right: 10px;"> <i class="fab fa-github"></i></a> <a href="#" style="display: inline"><i class="fab fa-linkedin"></i></a></li>
+                            
+                            </ul>
+                            </div>
+                            <div class="images">
+                            <img src="dina.jpeg" alt="dinaPhoto" >
+                            <ul class="info">
+                            <li>Dena Moean</li>
+                            <li>19 years</li>
+                            <li>web developer</li>
+                            <li ><a href="https://github.com/denaHS" style="display: inline;margin-right: 10px;"> <i class="fab fa-github"></i></a> <a href="#"style="display: inline"><i class="fab fa-linkedin"></i></a></li>
+                            
+                            </ul>
+                            </div>
+                            <div class="images">
+                            <img src="jamalat.jpeg" alt="jamalat">
+                            <ul class="info">
+                            <li>Jamalat Shamallakh</li>
                             <li>23 years</li>
                             <li>web developer</li>
-                        </ul>
-                </div>
-                <div class="images">
-                    <img src="abedallah.jpg" alt="abedallah" width="200px">
-                    <ul class="info">
-                            <li>abedallah</li>
+                            <li ><a href="https://github.com/Jamalat-shamallakh" style="display: inline;margin-right: 10px;"> <i class="fab fa-github"></i></a> <a href="#"style="display: inline"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                            </div>
+                            <div class="images">
+                            <img src="abedallah.jpg" alt="abedallah" width="200px">
+                            <ul class="info">
+                            <li>Abdallah Ammar</li>
                             <li>22 years</li>
                             <li>web developer</li>
-                        </ul>
+                            <li ><a href="https://github.com/AbdallahAmmar96" style="display: inline;margin-right: 10px;"> <i class="fab fa-github"></i></a> <a href="#" style="display: inline"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                            </div>
+                            </div>
                 </div>
             </div>
             <div class="contactus" id="c">
-                <form action="#" class="contactus-form">
-                    <label for="name">Full Name : </label><input type="text" class="input" placeholder="Name">
-                    <label for="email">Email : </label><input type="email" class="input" placeholder="Email">
-                    <label for="message">Message : </label><textarea type="text" id="message-textarea" placeholder="Enter your message"></textarea>
-                </form>
-            </div>
-        </div>
+                    <img src="location-narrow.png" alt="Image of the location" id="location-img">
+                    <form action="#" class="contactus-form" id="contactus-form">
+                    <label for="contactus-form" class="contactus-label">Contact Us</label>
+                    <div class="contactus-information">
+                    <div class="contactus-information-element"><i class="fas fa-road"></i><label for="contactus-form">Omar Al-Mukhtar St.</label></div>
+                    <div class="contactus-information-element"><i class="fas fa-phone"></i><label for="contactus-form">+972 (059) 220-7599</label></div>
+                    <div class="contactus-information-element"><i class="fas fa-city"></i><label for="contactus-form">Gaza City</label></div>
+                    <div class="contactus-information-element"><i class="fas fa-envelope"></i><label for="contactus-form">example@example.com</label></div>
+                    </div>
+                    <input type="text" class="input" placeholder="Name">
+                    <input type="email" class="input" placeholder="Email">
+                    <textarea type="text" id="message-textarea" placeholder="Enter your message"></textarea>
+                    <button class="input">Send</button>
+                    </form>
+                    </div>
         <div><footer class="footer"><h4>&copy;2019 Epic Developers, All Rights Reserved</h4></footer></div>
     </div>  
 </body>
