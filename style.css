@@ -65,10 +65,7 @@
 }
 .info {
   text-align: center;
-  /* padding: 20px; */
   margin: 0;
-  /* background-color: rgba(144, 140, 140, 0.726);
-    border-radius: 35px 5px 30px 5px; */
 }
 ul {
   margin: 0px;
@@ -339,8 +336,6 @@ li {
 }
 .qqq {
   padding: 10px 0;
-  /* width: 100%; */
-  /* padding-left: 90px; */
   margin-left: 5%;
 }
 .send-btn {
