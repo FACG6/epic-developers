@@ -343,4 +343,8 @@ li {
     /* padding-left: 90px; */
     margin-left: 5%;
 }
+.githubstyle{
+    display: inline;
+    margin-right: 10px;
 
+}
