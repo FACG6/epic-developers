@@ -3,35 +3,42 @@
   padding:0;
   box-sizing: border-box;
 }
-
+.team{
+    background-image: url(meet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.obes{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-top: 60px;
+    padding-right: 90px;
+}
 .teammember {
     display:flex;
     min-height: 90vh;
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 15%;
     flex-wrap: wrap;
+    font-size: 1.3em;
 }
-
 .teammember .images img{
   margin:20px auto;
   height:200px;
   width: 200px;
   border-radius:50%;
-  margin-left: 30px;
-  opacity: 0.5;
+  margin-left: 50px;
 }
 .teammember .images img:hover{
-    opacity:1; 
+    opacity:0.5; 
 }
-
 .teammember  ul{
     margin-left: 50px;
 }
 .teammember  ul li{
-list-style: none;
-
+    list-style: none;
+    margin-bottom: 8px;
 }
 .info{
     text-align: center;
@@ -56,7 +63,6 @@ a {
     margin: 0;
     padding: 0;
     text-align: center;
-    flex-direction: column;
 }
 li {
     list-style-type: none;
@@ -64,51 +70,58 @@ li {
 .nav{
     min-width: 10%;
     position: fixed;
-    background-color: aqua;
+    background-color:rgba(95, 95, 95, 0.609);
     height: 100%;
+    font-family: "lobster";
+    border-radius : 0 100px 100px 0;
 }
+.navlink{
+    width: 100%;
+    padding-top: 30%;
+    padding-bottom: 30%; 
+    font-size: 40px;
+    text-shadow: -3px 3px 3px rgb(255, 255, 255);
+}
+.navlink:hover {
+    text-shadow: -4px 4px 4px rgb(0, 0, 0);
+    color: white;
+  }
 .navitems{
-    margin: 35px 0;
-    margin-bottom: 150px;
+    display: flex;
+    width: 100%;
+    height: 146px;
+    margin: auto;
+    border-bottom: 5px solid;
+    justify-content: center;
+    align-items: center;
+}
+.no-border{
+    border-bottom: 0px solid;
+}
+@media (max-width: 800px) {
+    .navlink{
+        font-size: 30px;
+    }
+}
+@media (max-width: 600px) {
+    .navlink{
+        font-size: 20px;
+    }
 }
 .teamname{
     text-align: center;
-    background-color: aquamarine;
 }
 .titel{
-    margin: auto;
-    width: 40%;
-    height: 200px;
+    min-height: 100vh;
+    background-image :url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
 }
-.head{
-    padding-top: 10%;
-    padding-bottom: 10%;
-    margin-bottom: 0px;
-}
-.arrow-down{
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid aquamarine;
-    margin: 0 auto;
-}
-.contactus{
-    background: rgb(0, 0, 0);
-    margin-top: 5%;
-}
-.contactus-form{
-    width: 50%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 20% 80%;
-    row-gap: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px; 
-}
-.contactus-form label{
-    font-family: 'Staatliches', cursive;
-    color:#c9c8c8;
+.rgba{
+    min-height: 100vh;
+    padding-top: 17%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .input{
     height: 30px;
@@ -130,24 +143,130 @@ li {
     text-align: center;
     background: #1e1e1e;
     height: 40px;
+    position: absolute;
+    width: 100%;
 }
 .footer h4 {
     padding-top: 10px;
     text-align: center;    
 }
 .aboutus{
-  background: #ca9c9c;
-  margin-left: 10%;
+ background: #c9c8c8b9;
   height: 20%;
+  color: rgb(0, 0, 0);
+  padding-top: 10%;
+  padding-left: 25%;
+  padding-right: 19%;
+  height: 100vh;
+  background: linear-gradient(to bottom right,#45301d ,#fff)
 }
 .aboutus1{
-    text-align: center;
     font-size: 28px;
     overflow: hidden;
     margin-top: 4%;
-}
-.aboutushead{
     text-align: center;
-    font-size: 28px;
-    padding-top: 5%;
+    font-family: Courgette;
+    font-size: 2.3em;
+}
+.intro{
+    margin-left: 15%;
+}
+.intro h1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: "permanent marker";
+    font-size: 3em;
+}
+.contactus{
+    display: flex;
+    background: #1f2729;
+    margin: 0;
+    width: 70%;
+    margin: 5% 0 5% 20%;
+    padding: 0;
+    border-radius: 17px;
+    box-shadow: -5px 5px 10px 6px grey, 5px -5px 10px 6px grey;
+    }
+.contactus img{
+        border-radius: 15px 0 0 15px;
+max-width: 50%;
+}
+.contactus-form{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 20px;
+}
+.contactus-form .contactus-label{
+    font-size: 2.5em;
+    font-family: 'Staatliches', cursive;
+    color:#c9c8c8;
+}
+.contactus-form .contactus-information{
+    font-size: 1.1em;
+    font-family: 'Staatliches', cursive;
+    color:#c9c8c8;
+}
+.contactus-information{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 40px;
+    row-gap: 20px;
+}
+.contactus-information-element{
+    display: grid;
+    grid-template-columns: 5% 95%;
+    column-gap: 7%;
+}
+@media(max-width:650px){
+    .contactus{
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 0;
+    background: #1f2729;
+    margin: 0;
+    width: 70%;
+    margin: 5% 0 5% 20%;
+    padding: 0;
+    border-radius: 17px;
+    }
+    .contactus img{
+    border-radius: 15px 15px 0 0;
+    max-width: 100%;
+    }
+    .contactus-form{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 20px;
+    }
+    .contactus-information{
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 40px;
+    row-gap: 20px;
+    }
+}
+.epic-font{
+    font-family: "pacifico";
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5em;
+}
+#dev-font{
+    font-family: "indie flower";
+    color: hsl(0, 0%, 100%);
+    font-size: 1.4em;
+}
+@media (max-width: 970px) {
+    .aboutus1{
+        font-size: 2em;
+    }
+}
+@media (max-width: 620px) {
+    .aboutus1{
+        font-size: 1.8em;
+    }
 }
