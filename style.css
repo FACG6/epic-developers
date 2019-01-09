@@ -74,6 +74,7 @@ li {
     height: 100%;
     font-family: "lobster";
     border-radius : 0 100px 100px 0;
+    z-index: 5;
 }
 .navlink{
     width: 100%;
