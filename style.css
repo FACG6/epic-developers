@@ -10,9 +10,10 @@
 }
 .obes{
     background-color: rgba(0, 0, 0, 0.2);
-    padding-top: 60px;
+    padding-top: 20px;
     padding-right: 90px;
 }
+
 .teammember {
     display:flex;
     min-height: 90vh;
@@ -21,27 +22,56 @@
     align-items: center;
     margin-left: 15%;
     flex-wrap: wrap;
-    font-size: 1.3em;
+    font-size: 1.2em;
+    font-family: Courgette;
 }
+@media (max-width: 450px) {
+    .teammember{
+        margin-left: 55%;
+    }
+    .introh1{
+        padding-left: 35%;
+    }
+}
+@media (max-width: 1200px) {
+    .images{
+        margin-top: 10%;
+    }
+}
+
 .teammember .images img{
-  margin:20px auto;
-  height:200px;
-  width: 200px;
+  height:150px;
+  width: 150px;
   border-radius:50%;
-  margin-left: 50px;
+}
+.images{
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
 }
 .teammember .images img:hover{
     opacity:0.5; 
-}
-.teammember  ul{
-    margin-left: 50px;
 }
 .teammember  ul li{
     list-style: none;
     margin-bottom: 8px;
 }
+.images{
+    background-color: rgba(144, 140, 140, 0.726);
+    border-radius: 35px 5px 30px 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 30px;
+}
 .info{
     text-align: center;
+    /* padding: 20px; */
+    margin: 0;
+    /* background-color: rgba(144, 140, 140, 0.726);
+    border-radius: 35px 5px 30px 5px; */
+}
+ul {
+    margin: 0px;
 }
 .body {
     margin: 0;
@@ -74,7 +104,7 @@ li {
     height: 100%;
     font-family: "lobster";
     border-radius : 0 100px 100px 0;
-    z-index: 5;
+    z-index: 1;
 }
 .navlink{
     width: 100%;
@@ -116,8 +146,7 @@ li {
     min-height: 100vh;
     background-image :url("back.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-   
+    background-repeat: no-repeat; 
 }
 .rgba{
     min-height: 100vh;
@@ -130,6 +159,7 @@ li {
     border-radius: 7px;
     padding: 5px;
     font-family: monospace;
+    font-size: 1.2em;
 }
 #message-textarea{
     height: 100px;
@@ -161,6 +191,13 @@ li {
   height: 100vh;
   background: linear-gradient(to bottom right,#45301d ,#fff)
 }
+.aboutushead{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: "permanent marker";
+    font-size: 3em;
+}
 .aboutus1{
     font-size: 28px;
     overflow: hidden;
@@ -184,14 +221,14 @@ li {
     background: #1f2729;
     margin: 0;
     width: 70%;
-    margin: 5% 0 5% 20%;
+    margin: 0 auto;
     padding: 0;
     border-radius: 17px;
     box-shadow: -5px 5px 10px 6px grey, 5px -5px 10px 6px grey;
     }
 .contactus img{
         border-radius: 15px 0 0 15px;
-max-width: 50%;
+        max-width: 50%;
 }
 .contactus-form{
     width: 50%;
@@ -199,6 +236,7 @@ max-width: 50%;
     display: grid;
     grid-template-columns: 100%;
     row-gap: 20px;
+    padding: 10px;
 }
 .contactus-form .contactus-label{
     font-size: 2.5em;
@@ -220,6 +258,7 @@ max-width: 50%;
     display: grid;
     grid-template-columns: 5% 95%;
     column-gap: 7%;
+    margin-bottom: 5px;
 }
 @media(max-width:650px){
     .contactus{
@@ -261,13 +300,42 @@ max-width: 50%;
     color: hsl(0, 0%, 100%);
     font-size: 1.4em;
 }
-@media (max-width: 970px) {
+@media (max-width: 670px) {
     .aboutus1{
         font-size: 2em;
     }
 }
-@media (max-width: 620px) {
+@media (max-width: 530px) {
     .aboutus1{
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 }
+@media  (max-width: 1250px)  {
+    .contactus-information{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 620px) {
+    .contactus-information{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 800px) {
+    .head{
+        margin-left: 20% ;
+        margin-top: 23%; 
+    }
+    .contactus-information{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.qqq{
+    padding: 10px 0;
+    /* width: 100%; */
+    /* padding-left: 90px; */
+    margin-left: 5%;
+}
+
