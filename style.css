@@ -236,10 +236,15 @@ li {
     display: grid;
     grid-template-columns: 100%;
     row-gap: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 .contactus-form .contactus-label{
     font-size: 2.5em;
+    font-family: 'Staatliches', cursive;
+    color:#c9c8c8;
+}
+.contactus label{
+    font-size: 1.1em;
     font-family: 'Staatliches', cursive;
     color:#c9c8c8;
 }
@@ -251,13 +256,13 @@ li {
 .contactus-information{
     display: grid;
     grid-template-columns: 50% 50%;
-    column-gap: 40px;
+    column-gap: 20px;
     row-gap: 20px;
 }
 .contactus-information-element{
     display: grid;
     grid-template-columns: 5% 95%;
-    column-gap: 7%;
+    column-gap: 10%;
     margin-bottom: 5px;
 }
 @media(max-width:650px){
