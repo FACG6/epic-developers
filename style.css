@@ -13,7 +13,6 @@
   padding-top: 20px;
   padding-right: 90px;
 }
-
 .teammember {
   display: flex;
   min-height: 90vh;
@@ -25,20 +24,6 @@
   font-size: 1.2em;
   font-family: Courgette;
 }
-@media (max-width: 450px) {
-  .teammember {
-    margin-left: 55%;
-  }
-  .introh1 {
-    padding-left: 35%;
-  }
-}
-@media (max-width: 1200px) {
-  .images {
-    margin-top: 10%;
-  }
-}
-
 .teammember .images img {
   height: 150px;
   width: 150px;
@@ -126,7 +111,6 @@ li {
 .no-border {
   border-bottom: 0px solid;
 }
-
 .teamname {
   text-align: center;
 }
@@ -349,4 +333,16 @@ li {
     row-gap: 20px;
   }
 }
-
+@media (max-width: 450px) {
+  .teammember {
+    margin-left: 55%;
+  }
+  .introh1 {
+    padding-left: 35%;
+  }
+}
+@media (max-width: 1200px) {
+  .images {
+    margin-top: 10%;
+  }
+}
