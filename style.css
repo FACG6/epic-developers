@@ -126,16 +126,7 @@ li {
 .no-border {
   border-bottom: 0px solid;
 }
-@media (max-width: 800px) {
-  .navlink {
-    font-size: 30px;
-  }
-}
-@media (max-width: 600px) {
-  .navlink {
-    font-size: 20px;
-  }
-}
+
 .teamname {
   text-align: center;
 }
@@ -262,36 +253,6 @@ li {
   column-gap: 10%;
   margin-bottom: 5px;
 }
-@media (max-width: 650px) {
-  .contactus {
-    display: grid;
-    grid-template-columns: 100%;
-    column-gap: 0;
-    background: #1f2729;
-    margin: 0;
-    width: 70%;
-    margin: 5% 0 5% 20%;
-    padding: 0;
-    border-radius: 17px;
-  }
-  .contactus img {
-    border-radius: 15px 15px 0 0;
-    max-width: 100%;
-  }
-  .contactus-form {
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 100%;
-    row-gap: 20px;
-  }
-  .contactus-information {
-    display: grid;
-    grid-template-columns: 100%;
-    column-gap: 40px;
-    row-gap: 20px;
-  }
-}
 .epic-font {
   font-family: "pacifico";
   color: hsl(0, 0%, 100%);
@@ -301,6 +262,22 @@ li {
   font-family: "indie flower";
   color: hsl(0, 0%, 100%);
   font-size: 1.4em;
+}
+.send-btn {
+  width: 35%;
+  height: 100%;
+  margin: auto;
+  font-family: 'Lobster';
+  font-size: 1.5em;
+}
+.githubstyle{
+    display: inline;
+    margin-right: 10px;
+
+}
+.qqq {
+  padding: 10px 0;
+  margin-left: 5%;
 }
 @media (max-width: 670px) {
   .aboutus1 {
@@ -333,20 +310,43 @@ li {
     display: flex;
     flex-direction: column;
   }
+  .navlink {
+    font-size: 30px;
+  }
 }
-.qqq {
-  padding: 10px 0;
-  margin-left: 5%;
+@media (max-width: 600px) {
+  .navlink {
+    font-size: 20px;
+  }
 }
-.send-btn {
-  width: 35%;
-  height: 100%;
-  margin: auto;
-  font-family: 'Lobster';
-  font-size: 1.5em;
+@media (max-width: 650px) {
+  .contactus {
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 0;
+    background: #1f2729;
+    margin: 0;
+    width: 70%;
+    margin: 5% 0 5% 20%;
+    padding: 0;
+    border-radius: 17px;
+  }
+  .contactus img {
+    border-radius: 15px 15px 0 0;
+    max-width: 100%;
+  }
+  .contactus-form {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 20px;
+  }
+  .contactus-information {
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 40px;
+    row-gap: 20px;
+  }
 }
-.githubstyle{
-    display: inline;
-    margin-right: 10px;
 
-}
