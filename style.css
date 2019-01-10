@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .team {
-  background-image: url(meet.jpg);
+  background-image: url(./images/meet.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -141,7 +141,7 @@ li {
 }
 .titel {
   min-height: 100vh;
-  background-image: url("back.jpg");
+  background-image: url("./images/back.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
